@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#canvas {
+    border: 2px solid black
+}
+button{
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 500ms ease-in-out;
+    bottom: 0px;
+    left: 0px;
+}
+button:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: scale(1.050);
+}
+#red{
+   background-color: red;
+   width: 100px;
+   height: 100px;
+   color: white;
+   font-family: sans-serif;
+   font-size: x-large;
+}
+#blue{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-family: sans-serif;
+    font-size: x-large;
+ }
+ #green{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-family: sans-serif;
+    font-size: x-large;
+ }
+ #yellow{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    color: rgb(73, 73, 73);
+    font-family: sans-serif;
+    font-size: x-large;
+ }
+ #orange{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-family: sans-serif;
+    font-size: x-large;
+ }
+ #loop{
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-family: sans-serif;
+    font-size: x-large;
+ }
