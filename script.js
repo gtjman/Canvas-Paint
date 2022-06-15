@@ -2,11 +2,10 @@ var style = "black"
 
 function color(color){
     style = color
-    clearInterval(interval)
 }
 function rainbow(){
     const arr = ["red","blue","green","yellow","purple"]
-    var interval = setInterval(() => {
+    setInterval(() => {
         style = arr[Math.floor(Math.random() * arr.length)]
     })
 }
